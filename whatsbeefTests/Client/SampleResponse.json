@@ -1,0 +1,75 @@
+{
+  "results": [
+    {
+      "rating": "M",
+      "channel": "7Mate",
+      "name": "Hardcore Pawn",
+      "start_time": "8:30pm",
+      "end_time": "9:30pm"
+    },
+    {
+      "rating": "PG",
+      "channel": "7Mate",
+      "name": "American Pickers",
+      "start_time": "9:30pm",
+      "end_time": "11:30pm"
+    },
+    {
+      "rating": "PG",
+      "channel": "ABC1",
+      "name": "Adam Hills Tonight",
+      "start_time": "8:32pm",
+      "end_time": "9:31pm"
+    },
+    {
+      "rating": "PG",
+      "channel": "ABC1",
+      "name": "Would I Lie to You?",
+      "start_time": "9:31pm",
+      "end_time": "10:02pm"
+    },
+    {
+      "rating": "MA",
+      "channel": "ABC1",
+      "name": "The Thick of It",
+      "start_time": "10:02pm",
+      "end_time": "11:40pm"
+    },
+    {
+      "rating": "M",
+      "channel": "Nine",
+      "name": "Arrow",
+      "start_time": "8:30pm",
+      "end_time": "9:30pm"
+    },
+    {
+      "rating": "AV",
+      "channel": "Nine",
+      "name": "The Following",
+      "start_time": "9:30pm",
+      "end_time": "10:30pm"
+    },
+    {
+      "rating": "PG",
+      "channel": "Nine",
+      "name": "The Block Sky High",
+      "start_time": "10:30pm",
+      "end_time": "11:30pm"
+    },
+    {
+      "rating": "M",
+      "channel": "SBS One",
+      "name": "Extreme Frontiers: Canada",
+      "start_time": "8:30pm",
+      "end_time": "9:30pm"
+    },
+    {
+      "rating": "M",
+      "channel": "SBS One",
+      "name": "Borgen",
+      "start_time": "9:30pm",
+      "end_time": "10:35pm"
+    }
+  ],
+  "count": 28
+}

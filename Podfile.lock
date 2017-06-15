@@ -1,0 +1,46 @@
+PODS:
+  - Cache (2.2.2):
+    - CryptoSwift
+  - CryptoSwift (0.6.9)
+  - FieryCrucible (2.1.3)
+  - Hex (5.0.1)
+  - NanoFrame (0.0.3)
+  - PromiseKit (4.2.0):
+    - PromiseKit/Foundation (= 4.2.0)
+    - PromiseKit/QuartzCore (= 4.2.0)
+    - PromiseKit/UIKit (= 4.2.0)
+  - PromiseKit/CorePromise (4.2.0)
+  - PromiseKit/Foundation (4.2.0):
+    - PromiseKit/CorePromise
+  - PromiseKit/QuartzCore (4.2.0):
+    - PromiseKit/CorePromise
+  - PromiseKit/UIKit (4.2.0):
+    - PromiseKit/CorePromise
+  - R.swift (3.2.0):
+    - R.swift.Library (~> 3.0.2)
+  - R.swift.Library (3.0.2)
+  - SwiftyJSON (3.1.4)
+
+DEPENDENCIES:
+  - Cache
+  - FieryCrucible
+  - Hex
+  - NanoFrame
+  - PromiseKit (~> 4.0)
+  - R.swift
+  - SwiftyJSON
+
+SPEC CHECKSUMS:
+  Cache: b00196618af3facf17986fadda228cc77b5a5a10
+  CryptoSwift: a22f6ba238e9ce4d26ee7bf45b9ed82e7122d4a0
+  FieryCrucible: 6171413938b1321333bb144ba31205352f60664c
+  Hex: 2c757d81a2b4b6afc842458ce485c8c097ea1c79
+  NanoFrame: a1dabbac9994eeea5e6289ec8201d5752a01cd21
+  PromiseKit: 08dfb783c161ddcd95b7912421f14c5113fd8318
+  R.swift: 207a372a2b5977caef440c696a368009460641d1
+  R.swift.Library: fbdec16c9802ad104fc1ba53415dc190e6ec5c73
+  SwiftyJSON: c2842d878f95482ffceec5709abc3d05680c0220
+
+PODFILE CHECKSUM: 5f2de3a7813a7cc837e8a6e16374b655bf748904
+
+COCOAPODS: 1.2.1

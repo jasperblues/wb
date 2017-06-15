@@ -1,0 +1,6 @@
+framework module Pods_whatsbeef_whatsbeefTests {
+  umbrella header "Pods-whatsbeef-whatsbeefTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,12 @@
+ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES
+FRAMEWORK_SEARCH_PATHS = $(inherited) "$PODS_CONFIGURATION_BUILD_DIR/Cache" "$PODS_CONFIGURATION_BUILD_DIR/CryptoSwift" "$PODS_CONFIGURATION_BUILD_DIR/FieryCrucible" "$PODS_CONFIGURATION_BUILD_DIR/Hex" "$PODS_CONFIGURATION_BUILD_DIR/NanoFrame" "$PODS_CONFIGURATION_BUILD_DIR/PromiseKit" "$PODS_CONFIGURATION_BUILD_DIR/R.swift.Library" "$PODS_CONFIGURATION_BUILD_DIR/SwiftyJSON"
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/R.swift"
+LD_RUNPATH_SEARCH_PATHS = $(inherited) '@executable_path/Frameworks' '@loader_path/Frameworks'
+OTHER_CFLAGS = $(inherited) -iquote "$PODS_CONFIGURATION_BUILD_DIR/Cache/Cache.framework/Headers" -iquote "$PODS_CONFIGURATION_BUILD_DIR/CryptoSwift/CryptoSwift.framework/Headers" -iquote "$PODS_CONFIGURATION_BUILD_DIR/FieryCrucible/FieryCrucible.framework/Headers" -iquote "$PODS_CONFIGURATION_BUILD_DIR/Hex/Hex.framework/Headers" -iquote "$PODS_CONFIGURATION_BUILD_DIR/NanoFrame/NanoFrame.framework/Headers" -iquote "$PODS_CONFIGURATION_BUILD_DIR/PromiseKit/PromiseKit.framework/Headers" -iquote "$PODS_CONFIGURATION_BUILD_DIR/R.swift.Library/Rswift.framework/Headers" -iquote "$PODS_CONFIGURATION_BUILD_DIR/SwiftyJSON/SwiftyJSON.framework/Headers" -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/R.swift"
+OTHER_LDFLAGS = $(inherited) -framework "Cache" -framework "CryptoSwift" -framework "FieryCrucible" -framework "Hex" -framework "NanoFrame" -framework "PromiseKit" -framework "Rswift" -framework "SwiftyJSON"
+OTHER_SWIFT_FLAGS = $(inherited) "-D" "COCOAPODS"
+PODS_BUILD_DIR = $BUILD_DIR
+PODS_CONFIGURATION_BUILD_DIR = $PODS_BUILD_DIR/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
+PODS_PODFILE_DIR_PATH = ${SRCROOT}/.
+PODS_ROOT = ${SRCROOT}/Pods

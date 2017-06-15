@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ProgramDetailController" customModule="whatsbeef" customModuleProvider="target">
+            <connections>
+                <outlet property="ratingLogo" destination="mFx-g3-893" id="HrG-ej-6Un"/>
+                <outlet property="timeLabel" destination="VAT-Wv-wOt" id="0aA-v1-UKL"/>
+                <outlet property="titleLabel" destination="YC0-rR-R0r" id="E0t-m6-GDG"/>
+                <outlet property="view" destination="iN0-l3-epB" id="qLh-qR-xRW"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="island" translatesAutoresizingMaskIntoConstraints="NO" id="jiE-XZ-V0h">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="278"/>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SUMMARY" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="L0g-0N-mbq">
+                    <rect key="frame" x="16" y="299" width="93" height="21"/>
+                    <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <color key="highlightedColor" cocoaTouchSystemColor="darkTextColor"/>
+                </label>
+                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="gKn-mD-iVO">
+                    <rect key="frame" x="16" y="328" width="343" height="319"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <string key="text">A band of app developers ship code from a remote tropical island in the Philippines, using a proprietary bird-based continuous delivery scheme. After subsisting on nothing but coconuts for several months, the miscreant leader attempts to get a real job back in Manila. //TODO: Increase line-spacing</string>
+                    <color key="textColor" red="0.396078431372549" green="0.40000000000000002" blue="0.41568627450980389" alpha="1" colorSpace="calibratedRGB"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                </textView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Hu2-8q-7sy">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="278"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Criminal Minds" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YC0-rR-R0r">
+                            <rect key="frame" x="19" y="105" width="271" height="27"/>
+                            <fontDescription key="fontDescription" type="system" weight="light" pointSize="22"/>
+                            <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="8:30pm - 12:00am" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VAT-Wv-wOt">
+                            <rect key="frame" x="19" y="140" width="157" height="35"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ratingAV" translatesAutoresizingMaskIntoConstraints="NO" id="mFx-g3-893">
+                            <rect key="frame" x="335" y="105" width="32" height="36"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="32" id="YKv-jx-WPq"/>
+                            </constraints>
+                        </imageView>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.32641267123287671" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstItem="VAT-Wv-wOt" firstAttribute="width" secondItem="YC0-rR-R0r" secondAttribute="width" id="Cei-Hj-fdh"/>
+                        <constraint firstItem="mFx-g3-893" firstAttribute="bottom" secondItem="YC0-rR-R0r" secondAttribute="bottom" id="IB6-kV-0vH"/>
+                        <constraint firstItem="VAT-Wv-wOt" firstAttribute="leading" secondItem="YC0-rR-R0r" secondAttribute="leading" id="hrN-FA-A7i"/>
+                        <constraint firstItem="VAT-Wv-wOt" firstAttribute="top" secondItem="YC0-rR-R0r" secondAttribute="bottom" constant="8" id="lxh-IY-IPA"/>
+                        <constraint firstItem="mFx-g3-893" firstAttribute="top" secondItem="YC0-rR-R0r" secondAttribute="top" id="tdP-qN-c1e"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="0.95686274509803915" green="0.95686274509803915" blue="0.95686274509803915" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="jiE-XZ-V0h" secondAttribute="bottom" constant="389" id="1nA-rY-3oq"/>
+                <constraint firstAttribute="trailing" secondItem="L0g-0N-mbq" secondAttribute="trailing" constant="266" id="1se-Qg-Yms"/>
+                <constraint firstItem="Hu2-8q-7sy" firstAttribute="leading" secondItem="jiE-XZ-V0h" secondAttribute="leading" id="67o-Qr-X1b"/>
+                <constraint firstItem="L0g-0N-mbq" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="16" id="7Rz-Nf-6oO"/>
+                <constraint firstItem="Hu2-8q-7sy" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="7ny-Ex-f7V"/>
+                <constraint firstItem="Hu2-8q-7sy" firstAttribute="trailing" secondItem="jiE-XZ-V0h" secondAttribute="trailing" id="8h8-bW-ObE"/>
+                <constraint firstAttribute="trailing" secondItem="mFx-g3-893" secondAttribute="trailing" constant="8" id="D7i-t4-3ew"/>
+                <constraint firstAttribute="bottom" secondItem="gKn-mD-iVO" secondAttribute="bottom" constant="20" id="Fbl-jq-IVo"/>
+                <constraint firstItem="gKn-mD-iVO" firstAttribute="top" secondItem="L0g-0N-mbq" secondAttribute="bottom" constant="8" id="Fco-b0-LQW"/>
+                <constraint firstItem="YC0-rR-R0r" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="19" id="GSP-Lu-35K"/>
+                <constraint firstAttribute="trailing" secondItem="Hu2-8q-7sy" secondAttribute="trailing" id="Ke5-pS-JCW"/>
+                <constraint firstItem="Hu2-8q-7sy" firstAttribute="bottom" secondItem="jiE-XZ-V0h" secondAttribute="bottom" id="OR9-uI-hP4"/>
+                <constraint firstItem="Hu2-8q-7sy" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" multiplier="3.2" id="Qhx-dM-Cty"/>
+                <constraint firstAttribute="trailing" secondItem="jiE-XZ-V0h" secondAttribute="trailing" id="S08-ue-mMK"/>
+                <constraint firstItem="YC0-rR-R0r" firstAttribute="width" secondItem="iN0-l3-epB" secondAttribute="width" multiplier="0.75" id="VWc-l4-pRW"/>
+                <constraint firstItem="YC0-rR-R0r" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="105" id="Zua-eN-gdv"/>
+                <constraint firstAttribute="trailing" secondItem="gKn-mD-iVO" secondAttribute="trailing" constant="16" id="bt1-P1-ndz"/>
+                <constraint firstItem="gKn-mD-iVO" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="16" id="fat-RF-jqn"/>
+                <constraint firstItem="jiE-XZ-V0h" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="gwz-Zb-OVw"/>
+                <constraint firstItem="L0g-0N-mbq" firstAttribute="top" secondItem="jiE-XZ-V0h" secondAttribute="bottom" constant="21" id="kA2-It-lUM"/>
+                <constraint firstItem="Hu2-8q-7sy" firstAttribute="top" secondItem="jiE-XZ-V0h" secondAttribute="top" id="mF5-oM-EO9"/>
+                <constraint firstAttribute="trailing" secondItem="mFx-g3-893" secondAttribute="trailing" constant="8" id="npp-vb-KoG"/>
+                <constraint firstItem="jiE-XZ-V0h" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="qbn-Aa-XfQ"/>
+            </constraints>
+            <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="lightContent"/>
+            <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
+            <nil key="simulatedBottomBarMetrics"/>
+            <point key="canvasLocation" x="81.5" y="-46.5"/>
+        </view>
+        <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="HBv-AO-1ln">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <point key="canvasLocation" x="250" y="315"/>
+        </scrollView>
+    </objects>
+    <resources>
+        <image name="island" width="1280" height="776"/>
+        <image name="ratingAV" width="66" height="36"/>
+    </resources>
+</document>
