@@ -18,8 +18,6 @@ class WhatsBeefClient {
     private(set) var responseParser: ResponseParser
     private(set) var cache: Cache<Data>
 
-    var loading: Bool = false
-
     init(serviceUrl: URL, responseParser: ResponseParser, cache: Cache<Data>) {
         self.serviceUrl = serviceUrl
         self.responseParser = responseParser

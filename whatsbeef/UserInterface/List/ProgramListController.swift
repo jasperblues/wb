@@ -18,7 +18,7 @@ class ProgramListController: UIViewController {
     private(set) var client: WhatsBeefClient
     private(set) var assembly: ApplicationAssembly
 
-    private(set) var loading: Bool = true
+    private(set) var loading: Bool = false
 
     var guide = Guide()
 
@@ -53,7 +53,7 @@ class ProgramListController: UIViewController {
         let maxVisible = itemsView!.maxVisiblePlusOne()
         let result = maxVisible.compare(maxLoaded())
 
-        if (!client.loading && result == ComparisonResult.orderedDescending) {
+        if (!self.loading && result == ComparisonResult.orderedDescending) {
 
             self.loading = true
             itemsView?.reloadData()
