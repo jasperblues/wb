@@ -37,7 +37,7 @@ public class ApplicationAssembly: DependencyFactory {
 
 
     func listController() -> UIViewController {
-        return scoped(ListingController(client: whatsBeefClient(), assembly: self))
+        return scoped(ProgramListController(client: whatsBeefClient(), assembly: self))
     }
 
     func detailController(show: Show) -> UIViewController {

@@ -11,7 +11,7 @@
 import Foundation
 import UIKit
 
-class ListingController: UIViewController {
+class ProgramListController: UIViewController {
 
     let kCellIdentifier = "CellIdentifier"
 
@@ -95,7 +95,7 @@ class ListingController: UIViewController {
 
 }
 
-extension ListingController: UITableViewDataSource {
+extension ProgramListController: UITableViewDataSource {
 
     func numberOfSections(in tableView: UITableView) -> Int {
         return guide.sections.count
@@ -143,7 +143,7 @@ extension ListingController: UITableViewDataSource {
 
 }
 
-extension ListingController: UITableViewDelegate {
+extension ProgramListController: UITableViewDelegate {
 
     public func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         return 75
