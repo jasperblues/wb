@@ -27,7 +27,7 @@
                     <rect key="frame" x="0.0" y="0.0" width="375" height="278"/>
                 </imageView>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SUMMARY" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="L0g-0N-mbq">
-                    <rect key="frame" x="16" y="299" width="93" height="21"/>
+                    <rect key="frame" x="16" y="299" width="201" height="21"/>
                     <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
                     <nil key="textColor"/>
                     <color key="highlightedColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -75,11 +75,11 @@
             <color key="backgroundColor" red="0.95686274509803915" green="0.95686274509803915" blue="0.95686274509803915" alpha="1" colorSpace="calibratedRGB"/>
             <constraints>
                 <constraint firstAttribute="bottom" secondItem="jiE-XZ-V0h" secondAttribute="bottom" constant="389" id="1nA-rY-3oq"/>
-                <constraint firstAttribute="trailing" secondItem="L0g-0N-mbq" secondAttribute="trailing" constant="266" id="1se-Qg-Yms"/>
                 <constraint firstItem="Hu2-8q-7sy" firstAttribute="leading" secondItem="jiE-XZ-V0h" secondAttribute="leading" id="67o-Qr-X1b"/>
                 <constraint firstItem="L0g-0N-mbq" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="16" id="7Rz-Nf-6oO"/>
                 <constraint firstItem="Hu2-8q-7sy" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="7ny-Ex-f7V"/>
                 <constraint firstItem="Hu2-8q-7sy" firstAttribute="trailing" secondItem="jiE-XZ-V0h" secondAttribute="trailing" id="8h8-bW-ObE"/>
+                <constraint firstAttribute="trailing" secondItem="L0g-0N-mbq" secondAttribute="trailing" constant="158" id="CTt-JI-kIC"/>
                 <constraint firstAttribute="trailing" secondItem="mFx-g3-893" secondAttribute="trailing" constant="8" id="D7i-t4-3ew"/>
                 <constraint firstAttribute="bottom" secondItem="gKn-mD-iVO" secondAttribute="bottom" constant="20" id="Fbl-jq-IVo"/>
                 <constraint firstItem="gKn-mD-iVO" firstAttribute="top" secondItem="L0g-0N-mbq" secondAttribute="bottom" constant="8" id="Fco-b0-LQW"/>

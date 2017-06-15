@@ -34,7 +34,7 @@ class Show {
             return R.image.stationNine()!
         case "SBS One":
             return R.image.stationSBS1()!
-        case "SBS Two":
+        case "SBS Two", "SBS 2":
             return R.image.stationSBS2()!
         case "TEN":
             return R.image.station10()!
