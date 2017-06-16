@@ -11,7 +11,7 @@
 import Foundation
 import UIKit
 
-class Show {
+class Program {
 
     var timeDescription: String {
         return "\(startTime) - \(endTime)"
@@ -22,6 +22,8 @@ class Show {
     */
     var channelImage: UIImage {
         switch channel {
+        case "ONE":
+            return R.image.stationONE()!
         case "Seven":
             return R.image.stationSeven()!
         case "7Mate":
@@ -41,7 +43,7 @@ class Show {
         case "ELEVEN":
             return R.image.stationEleven()!
         default:
-            print("WARNING: No image resource for channel \(channel)")
+            print("WARNING: No image resource for channel: '\(channel)'")
             return UIImage()
         }
     }
@@ -64,7 +66,7 @@ class Show {
         case "NR":
             return R.image.ratingNR()!
         default:
-            print("No image resource for rating \(rating)")
+            print("No image resource for rating: '\(rating)'")
             return R.image.ratingNR()!
         }
     }

@@ -21,7 +21,7 @@ class ProgramTableCell: UITableViewCell {
     private(set) var activityIndicator: UIActivityIndicatorView?
     private(set) var separator: UIView?
 
-    var program: Show? {
+    var program: Program? {
         didSet {
             if (program != nil) {
                 titleLabel?.text = program!.name

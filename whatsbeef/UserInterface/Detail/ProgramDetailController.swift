@@ -17,9 +17,9 @@ class ProgramDetailController: UIViewController {
     @IBOutlet var timeLabel: UILabel?
     @IBOutlet var ratingLogo: UIImageView?
 
-    private(set) var show: Show
+    private(set) var show: Program
 
-    init(show: Show) {
+    init(show: Program) {
         self.show = show
         super.init(nibName: "ProgramDetailView", bundle: .main)
         self.title = show.name

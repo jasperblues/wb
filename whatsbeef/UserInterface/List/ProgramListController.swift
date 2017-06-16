@@ -71,7 +71,7 @@ class ProgramListController: UIViewController {
         objc_sync_exit(self)
     }
 
-    private func processItems(items: [Show], title: String) {
+    private func processItems(items: [Program], title: String) {
         print("$$$$$$$$$ process items")
         self.loading = false
         let section = Section(title: title, shows: items)

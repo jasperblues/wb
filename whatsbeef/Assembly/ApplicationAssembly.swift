@@ -40,7 +40,7 @@ public class ApplicationAssembly: DependencyFactory {
         return scoped(ProgramListController(client: whatsBeefClient(), assembly: self))
     }
 
-    func detailController(show: Show) -> UIViewController {
+    func detailController(show: Program) -> UIViewController {
         return scoped(ProgramDetailController(show: show))
     }
 

@@ -14,21 +14,21 @@ import SwiftyJSON
 class ResponseParser {
 
 
-    func parse(response: String) -> Array<Show> {
+    func parse(response: String) -> Array<Program> {
         return parse(response: response.data(using: .utf8)!)
     }
 
     /**
     * Parses the UTF-8 encoded data.
     */
-    func parse(response: Data) -> Array<Show> {
+    func parse(response: Data) -> Array<Program> {
 
-        var items : Array<Show> = []
+        var items : Array<Program> = []
         let json = JSON(data: response)
 
         for (_, item): (String, JSON) in json["results"] {
 
-            let show = Show(rating: item["rating"].string!,
+            let show = Program(rating: item["rating"].string!,
                     channel: item["channel"].string!,
                     name: item["name"].string!,
                     startTime: item["start_time"].string!,

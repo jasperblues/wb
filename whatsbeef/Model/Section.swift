@@ -13,9 +13,9 @@ import Foundation
 class Section {
 
     private(set) var title: String
-    private(set) var programs: [Show]
+    private(set) var programs: [Program]
 
-    init(title: String, shows: [Show]) {
+    init(title: String, shows: [Program]) {
         self.title = title
         self.programs = shows
     }

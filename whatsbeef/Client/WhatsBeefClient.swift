@@ -24,14 +24,14 @@ class WhatsBeefClient {
         self.cache = cache
     }
 
-    func load(start: Int) -> Promise<[Show]> {
+    func load(start: Int) -> Promise<[Program]> {
         let url = urlFor(start: start)
         return loadFromCache(url: url).recover { _ in
             return self.loadFromNetwork(url: url)
         }
     }
 
-    func loadFromCache(url: URL) -> Promise<[Show]> {
+    func loadFromCache(url: URL) -> Promise<[Program]> {
 
         return Promise { fulfill, reject in
             cache.clearExpired()
@@ -46,7 +46,7 @@ class WhatsBeefClient {
         }
     }
 
-    func loadFromNetwork(url: URL) -> Promise<[Show]> {
+    func loadFromNetwork(url: URL) -> Promise<[Program]> {
 
         return Promise { fulfill, reject in
             DispatchQueue.global(qos: .userInitiated).async {
